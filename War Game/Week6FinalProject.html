@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests</title>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+</head>
+
+<body>
+    <div id="mocha">
+        <p><a href=".">Index</a></p>
+    </div>
+    <div id="messages"></div>
+    <div id="fixtures"></div>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script src="Week6FinalProject.js"></script>
+    <script>
+        mocha.setup('bdd');
+    </script>
+
+    <!-- Set these to your code file and then your test code file -->
+   
+    <script src="war.test.js"></script>
+
+    <script>
+        mocha.run();
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Card Game</title>
+</head>
+
+<body>
+    <div class="button-container">
+        <button class= "button" id="startbutton" onclick="Game.startGame();">DECLARE WAR</button>
+    </div>
+    <div class="player-container">
+        <div class="'row">
+            <div class="column" id="player-one-container">
+                <h1 id ="One" class="player">PLAYER 1</h1>
+                <ul class="player-one-score"></ul>
+                <h2 id = "player-one-total-score">Score:0</h2>
+            </div>
+            <div class="column" id=" score">
+                <h1 class=" score-title">Let The WAR Begin!!</h1>
+                <ul class="score-list"></ul>
+                <h2 id="winner"></h2>
+            </div>
+            <div class="column" id="player-two-container">
+                <h1 id="two" class="player">PLAYER 2</h1>
+                <ul class="player-two-score"></ul>
+                <h2 id=" player-two-total-score">Score:0</h2>
+
+        </div>
+        </div>
+    </div>
+    <script src="Week6FinalProject.js"></script>
+</body>
+</html> -->
